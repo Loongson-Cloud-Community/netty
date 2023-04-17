@@ -565,7 +565,7 @@
       <extension>
         <groupId>kr.motd.maven</groupId>
         <artifactId>os-maven-plugin</artifactId>
-        <version>1.5.0.Final</version>
+        <version>1.7.1</version>
       </extension>
     </extensions>
 
@@ -589,6 +589,7 @@
                 <requireMavenVersion>
                   <version>[3.1.1,)</version>
                 </requireMavenVersion>
+                <!--
                 <requireProperty>
                   <regexMessage>
                     x86_64 JDK must be used.
@@ -596,6 +597,7 @@
                   <property>os.detected.arch</property>
                   <regex>^x86_64$</regex>
                 </requireProperty>
+                !-->
               </rules>
             </configuration>
           </execution>
